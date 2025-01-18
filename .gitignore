@@ -36,6 +36,7 @@ Videos
 .zcompdump
 *.mp4
 *.mkv
+.gitconfig
 
 .config/hypr/scripts/currentwallpaper.txt
 .config/autostart
