@@ -6,7 +6,10 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/whip/.zshrc'
-export screenshots="/run/media/whip/external drive/Screenshots/LinuxScreenshots/"
+
+alias ff="fastfetch"
+alias neofetch="fastfetch"
+alias ls='ls --color=auto --group-directories-first'
 
 autoload -Uz compinit
 compinit
