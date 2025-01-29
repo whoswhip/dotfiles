@@ -1,5 +1,6 @@
 # Exclude every file & folder
 *
+.config/hypr/scripts/currentwallpaper.txt
 
 # Include config files & wallpapers 
 !.config/waybar
@@ -7,7 +8,6 @@
 !.config/rofi
 !.config/kitty
 !.config/hypr
-.config/hypr/scripts/currentwallpaper.txt
 !.config/fastfetch
 !.config/dunst
 !Pictures/Wallpapers
