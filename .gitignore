@@ -3,11 +3,11 @@
 .config/hypr/scripts/currentwallpaper.txt
 
 # Include config files & wallpapers 
-!.config/waybar
+!.config/waybar/*
 !.config/starship.toml
-!.config/rofi
-!.config/kitty
-!.config/hypr
-!.config/fastfetch
-!.config/dunst
-!Pictures/Wallpapers
+!.config/rofi/*
+!.config/kitty/*
+!.config/hypr/*
+!.config/fastfetch/*
+!.config/dunst/*
+!Pictures/Wallpapers/*
