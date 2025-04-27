@@ -33,6 +33,7 @@
     "custom/os_button": {
         "format": "󰣇",
         "on-click": "bash ~/.config/hypr/scripts/wallpaper.sh",
+        "on-click-right": "bash ~/.config/waybar/scripts/rofi-power-menu.sh",
         "tooltip": false
     },
     "cpu": {

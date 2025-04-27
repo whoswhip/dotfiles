@@ -1,13 +1,23 @@
-# Exclude every file & folder
+# Exclude everything
 *
-.config/hypr/scripts/currentwallpaper.txt
 
-# Include config files & wallpapers 
-!.config/waybar/*
+!.config/
+!.config/hypr/
+!.config/waybar/
+!.config/rofi/
+!.config/rofi/scripts/
+!.config/kitty/
+!.config/fastfetch/
+!.config/dunst/
+!Pictures/
+!Pictures/Wallpapers/
+
+!.config/hypr/** 
+!.config/waybar/**
+!.config/rofi/** 
+!.config/kitty/**
+!.config/fastfetch/**
+!.config/dunst/**
 !.config/starship.toml
-!.config/rofi/*
-!.config/kitty/*
-!.config/hypr/*
-!.config/fastfetch/*
-!.config/dunst/*
-!Pictures/Wallpapers/*
+!Pictures/Wallpapers/**
+.config/hypr/scripts/currentwallpaper.txt
